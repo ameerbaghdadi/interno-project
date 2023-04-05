@@ -1,0 +1,333 @@
+.intro {
+    background-image: url('../images/banner-image.jpg');
+    border-radius: 0px 0px 0px 291px;
+    padding-top: 15%;
+    width: 100%;
+    height: 110%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.intro h1 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4em;
+    line-height: 125%;
+}
+
+.intro p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+}
+
+.work h3 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 125%;
+}
+
+.work p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+}
+
+.kitchen-img {
+    border-radius: 0px 326.5px 0px 123px;
+}
+
+.about-us h1 {
+    font-size: 3rem;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.about-us p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.375rem;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+}
+
+.about-us span {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+}
+
+.about-us button {
+    background: #292F36;
+    box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
+    border-radius: 12px;
+    color: white;
+}
+
+.project h2 {
+    font-size: 3rem;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.project p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+}
+
+.project span {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #292F36;
+}
+
+.project-1 {
+    border-radius: 0px 80px 0px 0px;
+}
+
+.project-2 {
+    border-radius: 80px 0px 0px 0px;
+}
+
+.project-3 {
+    border-radius: 0px 0px 80px 0px;
+}
+
+.project-4 {
+    border-radius: 0px 0px 0px 80px;
+}
+
+.counter {
+    background: #F4F0EC;
+}
+
+.counter h1 {
+    color: #CDA274;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+}
+
+.vl {
+    border-left: 2px solid #CDA274;
+    height: 130px;
+}
+
+.blog h1 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #292F36;
+}
+
+.blog .sub-title {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+}
+
+@media screen and (max-width: 560px) {
+
+    .intro {
+        height: 80%;
+    }
+
+    .vl {
+        border-bottom: 2px solid #CDA274;
+        border-left: none;
+    }
+
+    .counter :last-child {
+        border-bottom: none;
+        border-left: none;
+    }
+
+    .counter>div>div>div {
+        border-bottom: 2px solid #CDA274;
+    }
+
+    .counter h1 {
+        font-size: 300%;
+    }
+
+    .intro h1 {
+        font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5em;
+        line-height: 125%;
+    }
+
+    .intro p {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        color: #4D5053;
+    }
+
+    .tag {
+        margin-top: -10%;
+    }
+
+    .more-info {
+        width: 50%;
+    }
+
+    .more-info img {
+        margin-left: 60%;
+    }
+}
+
+.blog .more-arrow {
+    width: auto;
+}
+
+.counter {
+    height: 70%;
+    padding-top: 12%;
+}
+
+.blog p {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #292F36;
+}
+
+.blog img {
+    border-radius: 45px 45px 0px 0px;
+    padding: 5%;
+}
+
+.second-card .card {
+    background-color: #E7E7E7;
+}
+
+.navbar li {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    color: #292F36;
+}
+
+footer .sub-title {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+}
+
+footer h3 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 125%;
+    align-items: center;
+    color: #292F36;
+}
+
+footer .list {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 300%;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+    padding-top: 6%;
+}
+
+footer .contact-list {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+    padding-top: 6%;
+}
+
+footer .copyright {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+}
+
+.tag {
+    position: absolute;
+    width: 124px;
+    height: 41px;
+    left: 41px;
+    top: 280px;
+    background: #FFFFFF;
+    border-radius: 8px 8px 8px 0px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+}
