@@ -11,7 +11,7 @@
 .intro h1 {
     font-family: 'DM Serif Display';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 4em;
     line-height: 125%;
 }
@@ -24,6 +24,17 @@
     line-height: 150%;
     letter-spacing: 0.01em;
     color: #4D5053;
+}
+
+.intro button {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding: 1rem;
 }
 
 .work h3 {
@@ -53,8 +64,9 @@
     font-size: 3rem;
     font-family: 'DM Serif Display';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 125%;
+    letter-spacing: 0.02em;
 }
 
 .about-us p {
@@ -80,7 +92,13 @@
     background: #292F36;
     box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
     border-radius: 12px;
-    color: white;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
 }
 
 .project h2 {
@@ -99,6 +117,11 @@
     line-height: 150%;
     letter-spacing: 0.01em;
     color: #4D5053;
+    width: auto;
+}
+
+.project-img {
+    height: 70px;
 }
 
 .project span {
@@ -113,19 +136,24 @@
 
 .project-1 {
     border-radius: 0px 80px 0px 0px;
+    width: 110%;
 }
 
 .project-2 {
     border-radius: 80px 0px 0px 0px;
+    width: 110%;
 }
 
 .project-3 {
     border-radius: 0px 0px 80px 0px;
+    width: 110%;
 }
 
 .project-4 {
     border-radius: 0px 0px 0px 80px;
+    width: 110%;
 }
+
 
 .counter {
     background: #F4F0EC;
@@ -166,10 +194,11 @@
     color: #4D5053;
 }
 
+
 @media screen and (max-width: 560px) {
 
     .intro {
-        height: 80%;
+        height: 68%;
     }
 
     .vl {
@@ -193,8 +222,8 @@
     .intro h1 {
         font-family: 'DM Serif Display';
         font-style: normal;
-        font-weight: 400;
-        font-size: 2.5em;
+        font-weight: 600;
+        font-size: 1.75em;
         line-height: 125%;
     }
 
@@ -213,21 +242,39 @@
     }
 
     .more-info {
-        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        width: auto;
     }
 
-    .more-info img {
-        margin-left: 60%;
+    .blog .sub-title {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        color: #4D5053;
+        display: contents;
     }
+
+    .about-us {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+.more-info {
+    display: flex;
+    justify-content: space-between;
+    /* width: 90%; */
 }
 
 .blog .more-arrow {
     width: auto;
-}
-
-.counter {
-    height: 70%;
-    padding-top: 12%;
 }
 
 .blog p {
